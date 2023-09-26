@@ -1,0 +1,183 @@
+
+body{
+background-color: black;
+font-style:italic;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+}
+.container-1{
+    margin:0 auto;
+    width:100%;
+}
+header{
+    background: whitesmoke;
+    margin: 0 auto;
+}
+header:after{
+    content:'';
+    display: table;
+    clear:both;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display:inline-block;
+    margin-left:70px;
+    padding-top:25px;
+    padding-bottom: 25px;
+
+
+
+}
+nav a{
+    color:#444;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+color:purple;
+}
+.hero{
+    background-image: url(technology.jpg);
+    margin-top: 0px;
+    background-size: cover;
+height:90pc;
+
+padding:400px 0 400px 0;
+}
+nav a::before{
+    content: '' ;
+    display:block;
+    height:5px;
+    width:100pc;
+    background-color: #444;
+    position:absolute;
+    top:0;
+
+transition: all ease-in-out 250 ms;
+}
+nav a:hover::before{
+width:100pc;
+}
+h2,h3,p,h1,h4,h5 {
+color: white;
+text-align: center;
+}
+.about{
+    text-align: center;
+    margin-top: 150px;
+
+}
+.footer{
+    background-color:black;
+    margin-top: 20pc;
+    margin-bottom: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.audio-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+  }
+  ::-webkit-scrollbar{
+    width:10px;
+
+  }
+-webkit-scrollbar-thumb{
+    background-color:#999;
+    border-radius:5px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50pc;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  .Back{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;  
+  }
+  a:hover{
+    color:aqua;
+  }
+  /*unvisited link*/
+  a:hover{
+color:#3B5998;
+  }
+  img{
+    margin: auto;
+    display: block;
+     border-radius:50% ;
+     height: 200px;
+     width: 200px;
+     /*border: 5px solid #555;*/
+  }
+  p{
+    display: block;
+  }
+  .about:hover{
+    color:green;
+    font-size: larger;
+  }
+  .about:visited{
+    color: #55ACEE;
+  }
+  footer:hover{
+    color:whitesmoke;
+
+  }
+  h2::selection{
+    background-color: darkkhaki;
+  }
